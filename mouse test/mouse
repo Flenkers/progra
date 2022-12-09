@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+     <head>
+         <meta charset="utf-8">
+         <title>follow the cursor</tilte>
+         <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>follow the cursor javascript</h2>
+    <div id="cursor"></div>
+    <script type="text/javascript">
+    var cursor = document.getElementById('cursor');
+    document . addEventListener('mousemove' , function(e){
+    var x = e.clientX;
+    var y = e.clienty;
+    cursor .style.left = x + "px"
+    cursor .style.top = y + "px"
+    
+    });
+    </script>
+    </body>
+    </html>
